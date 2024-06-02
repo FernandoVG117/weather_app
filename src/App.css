@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+input, button {
+    display: inline-block;
+    cursor: pointer;
+    font-family: inherit;
+    text-align: center;
+}
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#fff, #bbb, #eee);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.loading__img {
+    width: 150px;
+}
