@@ -42,7 +42,7 @@ input {
 }
 
 
-@media (width < 355px) {
+@media (width < 576px) {
     .search {
         display: flex;
         align-items: center;
